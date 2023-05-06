@@ -3,9 +3,12 @@ console.clear();
 IF - palyginimas
 
 Palyginimo operatoriai:
-visi: >, <, >=, <=, ==, ===, 
-naudotini: >, <, >=, <=, ==, ===, 
-nenaudotoni: ==,
+visi: >, <, >=, <=, ==, ===, !=, !==,
+naudotini: >, <, >=, <=, ==, ===, !==,
+nenaudotini: ==, !=
+
+Loginiai operatoriai:
+&& (and), || (or), ! (not)
 
 Kodo sablonai:
 if () {}
@@ -139,3 +142,97 @@ if (savaitesDiena === undefined) {
 } else {
     console.log(savaitesDiena);
 }
+
+console.log('-----------------');
+
+if (777 !== 777) {
+    console.log('nelygu');
+} else {
+    console.log('lygu');
+}
+
+console.clear();
+
+console.log('-------------');
+
+if ('Labas' == 'labas') {
+    console.log('taip');
+} else {
+    console.log('ne');
+}
+
+if ('888' === 888) {
+    console.log('taip');
+} else {
+    console.log('ne');
+}
+
+console.log('888' * '2'); 
+
+// LOGINIAI OPERATORIAI
+
+if (4 > 2 && 8  < 20) {
+    console.log('and')
+}
+
+if (1 < 0 || 2 < 4) {
+    console.log('arba');
+}
+
+// pvz jei miksuot, bet geriau taip nedaryt:
+
+if (1 === 1 && 2 === 3 || 4 === 4) {
+    console.log('mix');
+}
+
+if ((1 === 1 || 2 === 3) && 4 === 4) {
+    console.log('mix');
+}
+
+console.log('-------------');
+
+const a = true;
+
+// sauktukas apsuka teigini (atsakyma):
+if (!a) {
+    console.log('taip');
+} else {
+    console.log('ne');
+}
+
+const error = true;
+
+if (!error) {
+    console.log('all good');
+} else {
+    console.log('ERROR');
+}
+
+console.log('--------------');
+
+// visi skaciai - TRUE, isskyrus 0
+// underfined - FALSE
+// null - FALSE
+// visi string - TRUE, isskyrus tuscias
+// visos function - TRUE
+// visi array - TRUE
+// visi object - TRUE
+
+if (0) {
+    console.log('KAZKAS...');
+} else {
+    console.log('Ne Kazka...');
+}
+
+console.log('----------------');
+
+const nameInputValue = '';
+
+if (!nameInputValue) {
+    console.log('KAZKAS...');
+} else {
+    console.log('Ne Kazka...');
+}
+
+const negative = !!nameInputValue;
+console.log(negative);
