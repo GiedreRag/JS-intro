@@ -134,3 +134,33 @@ console.log('---------------------');
 
 console.log(student.movies[0].title);
 console.log(student.movies[1].title);
+
+console.clear();
+
+const skaiciai = [10, 2, 8];
+console.log(skaiciai);
+
+skaiciai[0] = 1000;
+console.log(skaiciai);
+
+const auto = {
+    marke: 'Audi',
+};
+console.log(auto);
+
+auto.marke = 'Audine';
+console.log(auto);
+
+// galima dadet info, papildyti, neirasant i const eilute:
+
+auto.kaina = 1000;
+console.log(auto);
+
+auto.color = 'red';
+console.log(auto);
+
+delete auto.color;
+console.log(auto);
+
+auto.savininai = []; // ateina masyvas []. Darysim kitam file
+console.log(auto);
