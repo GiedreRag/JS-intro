@@ -35,3 +35,18 @@ console.log(d);
 
 const e = 1 < 2 ? 3 ? 4 : 5 : 6 ? 7 :8; 
 console.log(e);
+
+
+// true -> [1], false -> [2], du variantai padaryt:
+
+const masyvas = [];
+
+if (true) {
+    masyvas.push(1);
+} else {
+    masyvas.push(2);
+}
+
+// arba:
+
+const mas = true ? [1] : [2];
