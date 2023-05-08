@@ -115,3 +115,17 @@ console.log(liek);
 
 liek = liek % 15; /*trumpiau parasyt: liek ˚%=15;*/
 console.log(liek);
+
+console.log('----------------');
+console.clear();
+
+let n = 0;
+
+console.log(n);
+console.log(++n); // parodo ka padaro iskart, su pridetu skaiciumi
+
+console.log(n++); // peparodo, ka padaro, nors tikrai prideda
+console.log(n);
+console.log(n++);
+console.log(n++);
+
