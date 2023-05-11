@@ -4,6 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "loops": "nodemon ./js/14-loops.js",
+    "arrow": "nodemon ./js/13-arrow.js",
+    "uzd-4": "nodemon ./uzd/4-biggest.js",
+    "uzd-3": "nodemon ./uzd/3-number.js",
+    "uzd-2": "nodemon ./uzd/2-multiply.js",
+    "uzd-1": "nodemon ./uzd/1-empty.js",
+    "own-uzduotys": "nodemon ./js/own-uzduotys.js",
     "for": "nodemon ./js/12-for.js",
     "ternary": "nodemon ./js/11-ternary.js",
     "if": "nodemon ./js/10-if.js",

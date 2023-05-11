@@ -75,7 +75,7 @@ console.clear();
 
 console.log('------------------');
 
-// String pavers i number: 
+// String paverst i number: 
 console.log('5', parseInt('5'));
 console.log(typeof '5', typeof parseInt('5'));
 

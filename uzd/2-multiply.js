@@ -65,10 +65,13 @@ return result;
     return result;
 } */
 
+// Tipai:
 
 console.log(multiply('labas', 5));
 console.log(multiply(5, 'labas'));
 console.log(multiply('labas', 'rytas'));
+
+// Ne skaiciai:
 
 console.log(multiply(Infinity, 5));
 console.log(multiply(5, Infinity));
@@ -81,6 +84,8 @@ console.log(multiply(-Infinity, -Infinity));
 console.log(multiply(NaN, 5));
 console.log(multiply(5, NaN));
 console.log(multiply(NaN, NaN));
+
+// Ok:
 
 console.log(multiply(7, 5));
 console.log(multiply(-7, 5));

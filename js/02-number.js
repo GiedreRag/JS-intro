@@ -8,7 +8,7 @@ normalus
 
 mistiniai
 - Infinity/ -Infinity
-- Nan (not-a-number)
+- NaN (not-a-number) - kai atlieki kazkoki matematini veiksma ir gaunas nesamone
 
 MATEMATINIAI VEIKSMAI
 aritmetiniai operatoriai:
@@ -122,9 +122,9 @@ console.clear();
 let n = 0;
 
 console.log(n);
-console.log(++n); // parodo ka padaro iskart, su pridetu skaiciumi
+console.log(++n); // parodo, ka padaro iskart, su pridetu skaiciumi
 
-console.log(n++); // peparodo, ka padaro, nors tikrai prideda
+console.log(n++); // neparodo, ka padaro, nors tikrai prideda
 console.log(n);
 console.log(n++);
 console.log(n++);
