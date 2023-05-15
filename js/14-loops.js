@@ -140,8 +140,8 @@ for (const key in user) {
 
 // O toliau: cikliski metodai :)
 
-// FOREACH
-// MAP
-// SORT
-// FILTER
+// FOREACH duoda item, index, list (is ko tokio ima, tarkim array). Eina per masyva ir dirba ant items.
+// MAP duoda item, index, list (kaip ir foreach). Iskart formuoja nauja masyva ir dirba su items.
+// SORT iskart mutuoja originalu list. Israso nuo pradzios iki galo (nuo mazesnio iki didesnio). Skaiciams a - b, raidems a > b.
+// FILTER duoda item, index, list (kaip ir foreach). Ir palikt ar ne.
 // REDUCE
